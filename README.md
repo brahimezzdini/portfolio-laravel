@@ -7,35 +7,31 @@ This project is a simple demonstration of a portfolio website using Laravel Fram
 
 ### Installation
 
-This project needs to be cloned first in order to operate. 
-```sh
-$ git clone https://github.com/Mahadi001/Library_System.git
-```
 You will need to be inside the project file to enter all of the rest of the commands. Type cd projectName to move to your terminal working location to the project file.
 
 In this case: 
 
-```sh
+```be
 cd Library_System
 ```
 Install the dependencies and devDependencies and start the server.
 You can also download the composer if not installed beforehand [here](https://getcomposer.org/)
 
-```sh
+```be
 $ composer update
 ```
 
-```sh
+```be
 $ npm install
 ```
 
-```sh
+```be
 cp .env.example .env
 ```
-```sh
+```be
 cp .env.example .env
 ```
-```sh
+```be
 php artisan key:generate
 ```
 In order to connect to the database:
@@ -46,40 +42,10 @@ In order to connect to the database:
 
 Enter this to the command line :
 
-```sh
+```be
 php artisan migrate
 ```
  
-```sh
+```be
 php artisan serve
-```
 
-```sh
-npm run dev 
-```
-or 
-```sh
-npm run watch 
-```
-
-
-## For Contact Form
-
-Change the information on the .env page. Place your own information according to the respective field, "MAIL_USERNAME" and MAIL_PASSWORD and also move to the ContactFormController file to change the field inside the to() function with your own designated mail address. 
-
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
